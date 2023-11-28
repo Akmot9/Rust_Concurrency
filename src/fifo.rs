@@ -23,7 +23,7 @@ pub fn main() {
     let counter_clone = Arc::clone(&counter);
     // Création d'un thread consommateur
     thread::spawn(move || {
-        for received in rx {
+        for _ in rx {
             //println!("Traitement : {}", received);
             let mut num = counter_clone.lock().unwrap();
             *num += 1;
