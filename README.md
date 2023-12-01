@@ -1,6 +1,5 @@
 Concurrency refers to the ability of a system to manage multiple tasks simultaneously. It's a concept used in computer science to enable efficient execution of processes or threads within a program, particularly in the context of systems with multiple CPUs or cores. Concurrency aims to improve the throughput and computational speed of a system by utilizing resources more effectively.
 
-
 Example of Concurrency in C
 ```c
 #include <stdio.h>   // Inclut la bibliothèque standard d'entrée/sortie.
